@@ -17,3 +17,28 @@ Generic tracker will need to have a 'insert' and 'mean' function to be used by a
 Temperature tracker will have its own specific function such as "min" and "max".
 
 In the test-all.py file, simply use your trackers. Examples are provided. 
+
+
+# Developper section
+
+### Personal additional changes
+
+* Overall
+  * I added pytest for the test, I think it's going to be easier. I took the exemple from test_all.py as test data
+* TemperatureTracker
+  * For the insertion of integer items, I overrode the insert function to handle the exception in case of non integer
+
+### Setup
+```
+# once inside of the project
+
+# activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# install libraries
+pip3 install -r requirements 
+
+# Run tests
+pytest 
+```

@@ -19,7 +19,7 @@ Temperature tracker will have its own specific function such as "min" and "max".
 In the test-all.py file, simply use your trackers. Examples are provided. 
 
 
-# Developper section
+# Developer section
 
 ### Personal additional changes
 
